@@ -1,29 +1,72 @@
+# 📜 Certificate Generator using React.js
 
-# Certificate-Generator
+### A React.js web application that automates bulk certificate generation and distribution. It allows organizers to upload participant data, generate certificates dynamically from templates, and send them via email with ease.
 
-## <h1 align="center">A</h1>
+## 🚀 Features
 
-<p align="center">
-  <img src="https://3ulsmb4eg8vz37c0vz2si64j-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/react-native-UX-design.gif" alt="logo" width="40%" />
-</p>
+### Upload participant details via CSV/Spreadsheet → JSON conversion.
 
-## <h1 align="center">Project</h1>
+### Auto-generate certificates using dynamic mapping of participant data.
 
-This is an Under-development Certificate but the basic structure of this WebApp has been implemented.
+### Randomized template selection for variety in designs.
 
-PS: do not use JSON placeholder for now to generate multiple certificate at once as this functionality hasn't implemented in it till now.
+### Built with React.js + HTML Canvas for rendering details on certificate templates.
 
-BTW
+### Email integration to deliver certificates directly to participants.
 
-## Sample data to test:
+### Responsive UI designed with HTML5, CSS3, and JavaScript (ES6+).
 
-##### Name : John Doe
-##### Date : 32/13/2019
-##### Signatory body 1 : Sec
-##### Signatory body 2 : J.Sec
-##### body : is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident,
+## 🛠 Tech Stack
 
+### Frontend: React.js, HTML5, CSS3, JavaScript (ES6+)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ca13b271-7136-4a0e-8269-52da87d8b0ae/deploy-status)](https://app.netlify.com/sites/certificate-generatar/deploys)
+### Visualization: HTML Canvas API
+
+### Data Handling: CSV to JSON conversion
+
+# 📂 Project Structure
+Certificate-Generator-ReactJS/
+│── public/
+│   └── templates/       
+│── src/
+│   ├── components/       
+│   ├── utils/             
+│   ├── App.js             
+│   └── index.js
+│── package.json
+│── README.md
+
+# ⚡ How It Works
+
+### Upload a CSV file of participant details.
+
+### Convert the CSV data to JSON format.
+
+### Map participant details dynamically onto selected certificate templates.
+
+### Generate certificates via Canvas API.
+
+### Send the generated certificates to participants via email.
+
+# 🎯 Challenges Faced & Solutions
+
+### Routing between components – solved by reorganizing into parent-child structure.
+
+### Image manipulation – handled using HTML Canvas.
+
+### Form validation – implemented using npm libraries instead of primitive HTML.
+
+# 👨‍💻 Team
+
+### Priyanka Gandhi S
+### Srimathi B
+
+# 📷 Screenshots
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d4399bae-8ff9-4ae6-aba4-f99686a4f204" />
+<img width="1366" height="657" alt="image" src="https://github.com/user-attachments/assets/e3fe1841-3588-45dd-92cd-3fe69bccfd13" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/22c44a80-df87-451d-98bc-6fd27644b3e6" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/753a79c4-0238-4482-99c4-ec9191e1f7fa" />
+
 
 
